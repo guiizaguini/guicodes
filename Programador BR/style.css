@@ -1,0 +1,50 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+#titulo1{
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    color: red;
+}
+
+.algunsvascos{
+    background: black;
+    color: whitesmoke;
+    padding: 12px;
+    position: relative;
+    margin-top: -10px;
+    text-align: center;
+    line-height: 0.10;
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#logovasco{
+    width: 50px;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+
+#login{
+    position: absolute;
+    right: 90px;
+    top: 40px;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+}
+
+#cadastro{
+    position: absolute;
+    right: 90px;
+    top: 65px;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+}
