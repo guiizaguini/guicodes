@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#logovasco{
+    width: 50px;
+    position: absolute;
+    left: 100px;
+    top: 35px;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #bab5b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    word-spacing: 10px;
+}
+
+.left-login > h1{
+    color: black;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #d6d3dd;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login > h1{
+    color: #000000;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #0f0f10;
+    color: #ffffffde;
+    font: 12pt;
+    box-shadow: 0px 10px 40px #d2080856;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: #000000de;
+    margin-bottom: 10px;
+}
+
+.texfield > input::placeholder{
+    color: #f0ffff94;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #ffffff;
+    background: hsl(0, 51%, 47%);
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}

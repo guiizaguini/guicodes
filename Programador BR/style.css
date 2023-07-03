@@ -1,12 +1,16 @@
 body, html {
     margin: 0;
     padding: 0;
+    background-color: #bab5b5;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
   }
   
 
 #titulo1{
+    font-family: 'Righteous';
     font-size: 50px;
-    font-family: 'Bebas Neue', sans-serif;
     font-style: normal;
     color: red;
 }
@@ -14,12 +18,12 @@ body, html {
 .algunsvascos{
     background: black;
     color: whitesmoke;
-    padding: 12px;
+    padding: 20px;
     position: relative;
     margin-top: -10px;
     text-align: center;
     line-height: 0.10;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Righteous', sans-serif;
     font-style: italic;
     font-size: 20px;
 }
@@ -28,13 +32,13 @@ body, html {
     width: 50px;
     position: absolute;
     left: 100px;
-    top: 30px;
+    top: 35px;
 }
 
 #login{
     position: absolute;
     right: 90px;
-    top: 40px;
+    top: 50px;
     font-style: normal;
     text-decoration: none;
     color: white;
@@ -43,8 +47,77 @@ body, html {
 #cadastro{
     position: absolute;
     right: 90px;
-    top: 65px;
+    top: 80px;
     font-style: normal;
     text-decoration: none;
     color: white;
 }
+
+.menu{
+    text-align: center;
+    font-family: 'Righteous';
+    word-spacing: 100px;
+    margin-top: 30px;
+    font-size: 13pt;
+}
+
+.noticia{
+    text-decoration: none;
+    color: black;
+}
+
+.ingressos{
+    text-decoration: none;
+    color: black;
+}
+
+.foto-news1{
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.foto-news1 img{
+    border-radius: 20px;
+}
+
+.titulonews1{
+    position: absolute;
+    font-size: 18pt;
+    font-style: normal;
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.subtitulonews1{
+    font-size: 14pt;
+    margin-left: 50px;
+    font-style: normal;
+    margin-top: 35px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.foto-news2 img{
+    width: 225px;
+    margin-right: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.titulonews2{
+    text-decoration: none;
+    color: black;
+    margin-left: 1250px;
+    text-align: left;
+    word-wrap: break-word;
+
+}
+
+.imgs{
+    display: block;
+    min-width: 100vw;
+}
+
