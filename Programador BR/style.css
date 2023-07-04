@@ -38,19 +38,21 @@ body, html {
 #login{
     position: absolute;
     right: 90px;
-    top: 50px;
+    top: 40px;
     font-style: normal;
     text-decoration: none;
     color: white;
+    font-family: 'Righteous';
 }
 
 #cadastro{
     position: absolute;
     right: 90px;
-    top: 80px;
+    top: 60px;
     font-style: normal;
     text-decoration: none;
     color: white;
+    font-family: 'Righteous';
 }
 
 .menu{
