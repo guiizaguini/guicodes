@@ -1,6 +1,32 @@
-body{
+
+body, html {
     margin: 0;
+    padding: 0;
+    background-color: #bab5b5;
     font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+#titulo1{
+    font-family: 'Righteous';
+    font-size: 50px;
+    font-style: normal;
+    color: red;
+}
+
+.algunsvascos{
+    background: black;
+    color: whitesmoke;
+    padding: 20px;
+    position: relative;
+    margin-top: -10px;
+    text-align: center;
+    line-height: 0.10;
+    font-family: 'Righteous', sans-serif;
+    font-style: italic;
+    font-size: 20px;
 }
 
 #logovasco{
@@ -10,9 +36,26 @@ body{
     top: 35px;
 }
 
+.menu{
+    text-align: center;
+    font-family: 'Righteous';
+    word-spacing: 100px;
+    margin-top: 30px;
+    font-size: 13pt;
+}
+
+.noticia{
+    text-decoration: none;
+    color: black;
+}
+
+.ingressos{
+    text-decoration: none;
+    color: black;
+}
+
+
 .main-login{
-    width: 100vw;
-    height: 100vh;
     background: #bab5b5;
     display: flex;
     justify-content: center;
@@ -21,7 +64,6 @@ body{
 
 .left-login{
     width: 50vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,14 +77,14 @@ body{
 
 .right-login{
     width: 50vw;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .card-login{
-    width: 60%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
