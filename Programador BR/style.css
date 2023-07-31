@@ -6,9 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     background-image: url(/imgs/torcida-vasco2.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
   }
 
   body::before {
@@ -34,7 +32,7 @@ body {
     color: red;
 }
 
-.algunsvascos{
+.header{
     background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 5));
     color: whitesmoke;
     padding: 20px;
@@ -102,35 +100,37 @@ body {
     color: white;
 }
 
-.news1 {
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-    text-align: left;
-    margin-left: 30px;
-}
-
-.titulonews1{
-    font-size: 18pt;
-    text-decoration: none;
+.noticias-destaque{
+    float: left;
+    margin-left: 10px;
     color: white;
-    display: inline;
-    width: max-content;
+    font-size: 10pt;
+
 }
 
-.subtitulonews1{
-    font-size: 14pt;
-    text-decoration: none;
-    color: white;
-    display: inline;
-    width: max-content;
-}
-
-.foto-news1 img{
+.noticias-destaque img{
+    max-width: 1000px;
     border-radius: 20px;
-    width: 55%;
-    margin-top: 20px;
+    position: relative;
 }
 
+figure#destaque1{
+    color: white;
+    text-align: center;
+}
 
+#cap1{
+    text-decoration: none;
+    color: white;
+    font-size: 20pt;
+    font-family: 'Righteous';
+}
+
+#cap2{
+    text-decoration: none;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 16pt;
+    letter-spacing: 1pt;
+}
 
