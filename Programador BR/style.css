@@ -45,6 +45,13 @@ body {
     font-size: 20px;
 }
 
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+    font-family: 'Righteous';
+    font-size: 15pt;
+}
+
 #logovasco{
     width: 50px;
     position: absolute;
@@ -72,13 +79,6 @@ body {
     font-family: 'Righteous';
 }
 
-.menu{
-    text-align: center;
-    font-family: 'Righteous';
-    word-spacing: 100px;
-    margin-top: 30px;
-    font-size: 15pt;
-}
 
 .noticia{
     text-decoration: none;

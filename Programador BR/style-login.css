@@ -53,11 +53,10 @@ body::before{
     top: 35px;
 }
 
-.menu{
-    text-align: center;
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
     font-family: 'Righteous';
-    word-spacing: 100px;
-    margin-top: 30px;
     font-size: 15pt;
 }
 
