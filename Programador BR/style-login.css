@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(/imgs/torcida-vasco.jpg);
+    background-image: url("imgs/fundo-vasco3.png");
     font-family: 'Noto Sans', sans-serif;
     display: flex;
     flex-direction: column;
@@ -27,13 +27,20 @@ body::before{
 }
 
 #titulo1{
-    font-family: 'Righteous';
+    font-family: 'Quicksand', sans-serif;
     font-size: 50px;
     font-style: normal;
-    color: red;
+    color: gray;
 }
 
-.algunsvascos{
+.container-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+.header{
     background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 5));
     color: whitesmoke;
     padding: 20px;
@@ -41,7 +48,7 @@ body::before{
     margin-top: -10px;
     text-align: center;
     line-height: 0.10;
-    font-family: 'Righteous', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-style: italic;
     font-size: 20px;
 }
@@ -56,7 +63,7 @@ body::before{
 nav ul li{
     display: inline-block;
     margin-right: 50px;
-    font-family: 'Righteous';
+    font-family: 'Quicksand', sans-serif;
     font-size: 15pt;
 }
 
@@ -95,8 +102,9 @@ nav ul li{
     word-spacing: 10px;
 }
 
-.left-login > h1{
+.left-login > h1,p{
     color: white;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .right-login{
@@ -117,6 +125,7 @@ nav ul li{
     flex-direction: column;
     padding: 30px 35px;
     background: #d6d3dd;
+    font-family: 'Quicksand', sans-serif;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
 }
@@ -171,7 +180,7 @@ nav ul li{
     color: #ffffff;
     background: hsl(0, 51%, 47%);
     cursor: pointer;
-    box-shadow: 0px 10px 40px -12px #00ff8052;
+    box-shadow: 0px 10px 40px -12px rgb(218, 211, 6);
 }
 
 .btn-cadastro{
@@ -186,7 +195,7 @@ nav ul li{
     font-weight: 800;
     letter-spacing: 3px;
     color: #ffffff;
-    background: hsl(0, 63%, 66%);
+    background: rgb(218, 211, 6);
     cursor: pointer;
-    box-shadow: 0px 10px 40px -12px #00ff8052;
+    box-shadow: 0px 10px 40px -12px hsl(0, 51%, 47%);
 }
