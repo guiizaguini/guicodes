@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Figtree';
+    background: black;
+}
+
+.container{
+    max-width: 888px;
+    margin: auto;
+    padding: 30px;
+}
+
+.header{
+    text-align: center;
+    margin-top: -35px;
+    font-size: 16pt;
+    color: white;
+}
+
+.menu{
+    text-align: center;
+}
+
+.links{
+    text-decoration: underline;
+    color: gray;
+    margin-left: 15px;
+    font-size: 16pt;
+    color: rgb(80, 241, 71);
+}
